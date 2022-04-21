@@ -1,4 +1,5 @@
 import SignUp from './SignUp';
+import React from 'react';
 import { Amplify, API, graphqlOperation } from 'aws-amplify';
 import awsconfig from './aws-exports';
 Amplify.configure(awsconfig);

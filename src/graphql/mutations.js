@@ -1,5 +1,6 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
+import * as mutations from '../graphql/mutations';
 
 export const createUser = /* GraphQL */ `
   mutation CreateUser(
