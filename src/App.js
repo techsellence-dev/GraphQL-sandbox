@@ -115,6 +115,7 @@ function App() {
     }
     // function for getting selected order
     const getSelectedUser=async()=>{
+        
         try {
             const userData=await API.graphql({query:queries.getUser,variables:{email:mail}});
             console.log(userData.data.getUser);
